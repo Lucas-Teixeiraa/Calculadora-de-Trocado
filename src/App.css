@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: #f8f9fa; /* Off-white no modo claro */
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Estilo para o modo escuro */
+body.dark {
+  background-color: #1e1e2f; /* Cinza escuro no modo escuro */
+}
+
+/* Adiciona transições suaves para mudanças de tema */
+body,
+.container {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo para o contêiner principal */
+.container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box; /* Garante que padding não afete o tamanho */
+}
+
+/* Modo escuro para o contêiner */
+body.dark .container {
+  background-color: #2c2c3e;
+  color: white;
+}
