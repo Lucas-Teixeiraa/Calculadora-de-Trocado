@@ -84,7 +84,8 @@ Desenvolvido com ❤️ por Lucas Teixeira.
 
 GitHub
 LinkedIn
-📸 Capturas de Tela (Opcional)
+![alt text](image.png)
+![alt text](image-1.png)
 Adicione capturas de tela do projeto para ilustrar as funcionalidades.
 
 📚 Referências
